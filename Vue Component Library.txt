@@ -1,0 +1,18 @@
+Vue Component Library
+
+_> Library project will be built in github with vue 3
+_> library will be a reausable local npm package that can be used in multiple projects
+_> there will be 3 options for using the components in the library
+  __> installing the library as a global plugin (Vue.use) to be able to use all the components without importing
+  __> group of components can be impoprted as one to be able to use all the components in the group (ex. Forms -> Button, Input ...)
+  __> components can be imported and used individiually
+
+
+Components
+ 1. Modal Component
+  _> classic modal features, overlay, backdrop and options(for escaping, size, position etc.)
+  _> default -> title, close button, minimum size, curved edges, backdrop shadow, dim overlay, slot content
+  _> 3 variation of popup animations(slide, rotate, zoom) using transform scale, rotate, translate attributes, default opacity transition
+
+Demo app
+ _> a demo application using  Vue Component Library
